@@ -1,8 +1,16 @@
 #include<stdio.h>
 
+int mul(int num1, int num2){
+    printf("%d x %d = %d",num1,num2,num1*num2);
+}
+
+int div(int num1,int num2){
+    printf("%d / %d = %d",num1,num2,num1/num2);
+}
+
 int main(){
 
-    int num, choice;
+    int num1,num2, choice;
     char c;
 
     do
@@ -14,31 +22,31 @@ int main(){
     scanf("%d", &choice);
 
     printf("enter two numbers: ");
-    scanf("%d %d", &x, &y);
+    scanf("%d %d", &num1, &num2);
 
     switch (choice)
     {
     case 1:
 
-      sum();
+     // sum();
 
       break;
 
     case 2:
 
-      sub();
+      //sub();
 
       break;
 
     case 3:
 
-      div();
+      div(num1,num2);
 
       break;
 
     case 4:
 
-      mul();
+      mul(num1,num2);
 
       break;
 
