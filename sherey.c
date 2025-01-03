@@ -7,5 +7,5 @@ int main(){
     printf("Enter a number:");
     printf("FUCK YOU SPIDER-MAN");
     scanf("%d", &a);
-        
+    
 }
